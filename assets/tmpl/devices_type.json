@@ -1,0 +1,62 @@
+[
+  {
+    "device_module": "soil_moisture_sensor.SoilMoistureSensor",
+    "type_name": "土壤传感器",
+    "cols": [
+      {
+        "title": "设备id",
+        "code": "dev_id",
+        "data_type": "int",
+        "format": "[0-9]"
+      },
+      {
+        "title": "scl",
+        "code": "scl",
+        "data_type": "int",
+        "format": "[0-9]"
+      },
+      {
+        "title": "sda",
+        "code": "sda",
+        "data_type": "int",
+        "format": "[0-9]"
+      },
+      {
+        "title": "端口",
+        "code": "chn",
+        "data_type": "int",
+        "format": "[0-9]"
+      }
+    ]
+  },
+  {
+    "device_module": "s8_sensor.S8Sensor",
+    "type_name": "S8传感器",
+    "cols": [
+      {
+        "title": "设备id",
+        "code": "dev_id",
+        "data_type": "int",
+        "format": "[0-9]"
+      },
+      {
+        "title": "scl",
+        "code": "scl",
+        "data_type": "int",
+        "format": "[0-9]"
+      },
+      {
+        "title": "sda",
+        "code": "sda",
+        "data_type": "int",
+        "format": "[0-9]"
+      },
+      {
+        "title": "端口",
+        "code": "chn",
+        "data_type": "int",
+        "format": "[0-9]"
+      }
+    ]
+  }
+]
